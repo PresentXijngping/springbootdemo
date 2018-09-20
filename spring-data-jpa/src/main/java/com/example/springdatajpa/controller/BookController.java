@@ -69,7 +69,7 @@ public class BookController {
      * 更新 Book
      * 处理 "/update" 的 PUT 请求，用来更新 Book 信息
      */
-    @PutMapping(value = "/update")
+    @GetMapping(value = "/update")
     public String putBook(@ModelAttribute Book book) {
         bookService.update(book);
         return REDIRECT_TO_BOOK_URL;
