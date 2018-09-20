@@ -23,7 +23,7 @@ public class BookController {
 
     /**
      * 获取 Book 列表
-     * 处理 "/book" 的 GET 请求，用来获取 Book 列表
+     * 处理 "/book/all" 的 GET 请求，用来获取 Book 列表
      * 数据存入ModelMap，返回Thymeleaf页面
      */
     @GetMapping("/all")
@@ -35,6 +35,7 @@ public class BookController {
     /**
      * 获取 Book
      * 处理 "/book/{id}" 的 GET 请求
+     * 返回单个数据的模板页面
      */
     @GetMapping(value = "/{id}")
     public String getBook(@PathVariable Long id, ModelMap map) {

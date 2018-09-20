@@ -40,6 +40,7 @@ public class StudentServiceImplTest {
 
     @Test
     public void get() {
+        System.out.println(studentService.get(1));
     }
 
     @Test

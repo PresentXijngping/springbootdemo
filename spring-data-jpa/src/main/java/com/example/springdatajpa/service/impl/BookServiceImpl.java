@@ -23,7 +23,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public Book findById(Long id) {
+    public Book findById(long id) {
         return bookRepository.findById(id).get();
     }
 }

@@ -8,14 +8,12 @@
 </head>
 <body>
 <div class="container">
-    <h3>Spring Data JPA练习 </h3>
-    <legend>
-        <strong>书籍详情</strong>
-    </legend>
-    <div class="col-md-4">
-        <p th:text="${book.name}"></p>
-        <p th:text="${book.writer}"></p>
+    <h3>Spring Data JPA练习 ——书籍详情</h3>
+    <div class="jumbotron header-panel">
+        <h1 th:text="${book.name}"</h1>
         <p th:text="${book.introduction}"></p>
+        <p th:text="${book.writer}"></p>
+        <p><button class="btn btn-primary btn-lg" href="#" role="button" th:text="${book.writer}"></button></p>
     </div>
 </div>
 </body>

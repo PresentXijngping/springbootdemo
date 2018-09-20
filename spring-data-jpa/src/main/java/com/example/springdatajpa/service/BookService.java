@@ -21,5 +21,5 @@ public interface BookService {
      *
      * @param id 编号
      */
-    Book findById(Long id);
+    Book findById(long id);
 }
