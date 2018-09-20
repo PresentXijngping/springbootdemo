@@ -1,7 +1,6 @@
-package com.example.springdatajpa.controller;
+package com.example.springdatajpa.service;
 
 import com.example.springdatajpa.entity.Book;
-import com.example.springdatajpa.service.BookService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,19 +14,19 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BookControllerTest {
+public class BookServiceTest {
 
     @Resource
     private BookService bookService;
 
     @Test
-    public void getBookList() {
+    public void findAll() {
         List<Book> bookList = bookService.findAll();
         bookList.forEach(book -> System.out.println(book));
     }
 
     @Test
-    public void getBook() {
-        System.out.println(bookService.findById(1L));
+    public void findById() {
+        System.out.println(bookService.findById(1));
     }
 }

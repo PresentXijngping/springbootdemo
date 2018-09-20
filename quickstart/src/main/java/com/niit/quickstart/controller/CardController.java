@@ -1,8 +1,8 @@
 package com.niit.quickstart.controller;
 
-import com.example.quickstart.dao.CardDAO;
-import com.example.quickstart.entity.Card;
-import com.example.quickstart.entity.User;
+import com.niit.quickstart.dao.CardDAO;
+import com.niit.quickstart.entity.Card;
+import com.niit.quickstart.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -15,6 +15,7 @@ import javax.annotation.Resource;
 @RequestMapping(value = "/book")
 public class BookController {
 
+    //用常量定义跳转的页面名称
     private static final String BOOK_DETAIL_PATH_NAME = "bookDetail";
     private static final String BOOK_LIST_PATH_NAME = "bookList";
 
@@ -22,7 +23,6 @@ public class BookController {
     BookService bookService;
 
     /**
-     * 获取 Book 列表
      * 处理 "/book/all" 的 GET 请求，用来获取 Book 列表
      * 数据存入ModelMap，返回Thymeleaf页面
      */
@@ -33,8 +33,7 @@ public class BookController {
     }
 
     /**
-     * 获取 Book
-     * 处理 "/book/{id}" 的 GET 请求
+     * 处理 "/book/{id}" 的 GET 请求，获取指定id的Book信息
      * 返回单个数据的模板页面
      */
     @GetMapping(value = "/{id}")
@@ -42,5 +41,4 @@ public class BookController {
         map.addAttribute("book", bookService.findById(id));
         return BOOK_DETAIL_PATH_NAME;
     }
-
 }
