@@ -79,7 +79,7 @@ public class BookController {
      * 删除 Book
      * 处理 "/book/{id}" 的 DELETE 请求，用来删除 Book 信息
      */
-    @PostMapping(value = "/delete/{id}")
+    @GetMapping(value = "/delete/{id}")
     public String deleteBook(@PathVariable Long id) {
         bookService.delete(id);
         return REDIRECT_TO_BOOK_URL;
