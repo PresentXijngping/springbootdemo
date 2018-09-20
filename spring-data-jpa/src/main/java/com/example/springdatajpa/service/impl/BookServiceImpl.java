@@ -10,7 +10,6 @@ import java.util.List;
 
 /**
  * Book 业务层实现
- *
  */
 @Service
 public class BookServiceImpl implements BookService {
@@ -21,23 +20,6 @@ public class BookServiceImpl implements BookService {
     @Override
     public List<Book> findAll() {
         return bookRepository.findAll();
-    }
-
-    @Override
-    public Book insertByBook(Book book) {
-        return bookRepository.save(book);
-    }
-
-    @Override
-    public Book update(Book book) {
-        return bookRepository.save(book);
-    }
-
-    @Override
-    public Book delete(Long id) {
-        Book book = bookRepository.findById(id).get();
-        bookRepository.delete(book);
-        return book;
     }
 
     @Override

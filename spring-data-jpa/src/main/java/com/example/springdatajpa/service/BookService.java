@@ -15,26 +15,6 @@ public interface BookService {
      */
     List<Book> findAll();
 
-    /**
-     * 新增 Book
-     *
-     * @param book {@link Book}
-     */
-    Book insertByBook(Book book);
-
-    /**
-     * 更新 Book
-     *
-     * @param book {@link Book}
-     */
-    Book update(Book book);
-
-    /**
-     * 删除 Book
-     *
-     * @param id 编号
-     */
-    Book delete(Long id);
 
     /**
      * 获取 Book
