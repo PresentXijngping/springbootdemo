@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6f5ff7d-df20-48c1-9f87-3c14361de118" name="Default Changelist" comment="finished qui module">
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/TopicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/dao/ArticleResopitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/dao/TopicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/impl/TopicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/dao/RepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/dao/TopicRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/dao/UserRepositoryTest.java" afterDir="false" />
+    <list default="true" id="c6f5ff7d-df20-48c1-9f87-3c14361de118" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/SpringDataJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/SpringDataJpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootdemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-data-jpa/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,7 +76,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="8" />
           <entry key="java" value="175" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="properties" value="12" />
           <entry key="sql" value="5" />
           <entry key="student" value="5" />
@@ -108,7 +90,7 @@
           <entry key="Database Element" value="9" />
           <entry key="HTML" value="8" />
           <entry key="JAVA" value="175" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="12" />
           <entry key="Scratch" value="5" />
@@ -120,9 +102,9 @@
           <entry key="cell" value="57" />
           <entry key="html" value="238" />
           <entry key="java" value="5302" />
-          <entry key="md" value="232" />
+          <entry key="md" value="287" />
           <entry key="properties" value="522" />
-          <entry key="txt" value="167" />
+          <entry key="txt" value="197" />
           <entry key="xml" value="111" />
         </counts>
       </usages-collector>
@@ -130,8 +112,8 @@
         <counts>
           <entry key="HTML" value="238" />
           <entry key="JAVA" value="5302" />
-          <entry key="Markdown" value="232" />
-          <entry key="PLAIN_TEXT" value="167" />
+          <entry key="Markdown" value="287" />
+          <entry key="PLAIN_TEXT" value="197" />
           <entry key="Properties" value="522" />
           <entry key="Scratch" value="57" />
           <entry key="XML" value="111" />
@@ -141,75 +123,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/dao/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="19" lean-forward="true" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/dao/UserRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="12" lean-forward="true" selection-end-line="65" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="22" lean-forward="true" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/spring-data-jpa/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="250">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -253,7 +174,6 @@
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/StudentService.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/README.md" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/resources/templates/bookList.html" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/service/impl/StudentServiceImplTest.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/controller/BookControllerTest.java" />
@@ -282,6 +202,7 @@
         <option value="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/dao/UserRepositoryTest.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/UserService.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-data-jpa/README.md" />
       </list>
     </option>
   </component>
@@ -371,133 +292,6 @@
               <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springdatajpa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -514,7 +308,7 @@
     <property name="SearchEverywhereHistoryKey" value="re&#9;FILE&#9;file://F:/SpringBoot/springbootdemo/spring-data-jpa/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538028800876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538029252486" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -694,7 +488,7 @@
       <workItem from="1537423643275" duration="12193000" />
       <workItem from="1537668765237" duration="432000" />
       <workItem from="1537968896035" duration="3796000" />
-      <workItem from="1537998404900" duration="24189000" />
+      <workItem from="1537998404900" duration="24356000" />
     </task>
     <task id="LOCAL-00001" summary="create quickstart module">
       <created>1537302095503</created>
@@ -773,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537430705340</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finished Spring Boot JPA&amp;swagger">
+      <created>1538029119150</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1538029119151</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,10 +610,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61118000" />
+    <option name="totallyTimeSpent" value="61285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -820,7 +622,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27485853" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19725141" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.3291815" />
@@ -900,7 +702,8 @@
     <MESSAGE value="commit spring-data-jpa module" />
     <MESSAGE value="update spring-data-jpa module some files" />
     <MESSAGE value="finished spring-data-jpa module" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished spring-data-jpa module" />
+    <MESSAGE value="finished Spring Boot JPA&amp;swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Spring Boot JPA&amp;swagger" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springbootjpa/src/main/java/com/niit/springbootjpa/entity/Book.java" />
@@ -917,16 +720,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/resources/static/css/default.css" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1f8cc08-8b62-46f6-a57c-9efd61a6ba40/console.sql" />
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1284,6 +1077,16 @@
             <element signature="e#712#713#0" expanded="true" />
             <element signature="e#772#773#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-data-jpa/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
