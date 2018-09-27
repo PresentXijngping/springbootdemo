@@ -20,9 +20,6 @@ public class Article {
     @Column(length = 36)
     private String id;
 
-//    //所属专题id
-//    private String topicId;
-
     //标题
     private String title;
 
