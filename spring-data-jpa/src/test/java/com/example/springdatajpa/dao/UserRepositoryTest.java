@@ -41,7 +41,7 @@ public class UserRepositoryTest {
 
     @Test
     public void findOne() {
-        SysUser user = userRepository.findById(21L).get();
+        SysUser user = userRepository.findById(21).get();
         System.out.println(user);
     }
 

@@ -10,7 +10,7 @@ public interface UserService {
     List<SysUser> getAll();
 
     //根据id查询用户
-    SysUser getUser(Long id);
+    SysUser getUser(Integer id);
 
     //根据账号精确查询用户
     SysUser getUserByAccount(String account);

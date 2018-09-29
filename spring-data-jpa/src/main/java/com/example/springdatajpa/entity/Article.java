@@ -15,10 +15,8 @@ import javax.persistence.Id;
 @Data
 public class Article {
     @Id
-    @GenericGenerator(name = "PKUUID", strategy = "uuid2")
-    @GeneratedValue(generator = "PKUUID")
-    @Column(length = 36)
-    private String id;
+    @GeneratedValue
+    private Integer id;
 
     //标题
     private String title;

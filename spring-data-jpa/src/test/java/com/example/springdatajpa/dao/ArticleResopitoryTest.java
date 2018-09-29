@@ -1,9 +1,6 @@
 package com.example.springdatajpa.dao;
 
 import com.example.springdatajpa.entity.Article;
-import com.example.springdatajpa.entity.SysUser;
-import com.example.springdatajpa.entity.Topic;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,41 +12,12 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RepositoryTest {
-
-    @Resource
-    private UserRepository userRepository;
-
-    @Resource
-    private TopicRepository topicRepository;
-
+public class ArticleResopitoryTest {
     @Resource
     private ArticleResopitory articleResopitory;
 
-
     @Test
-    public void test() throws Exception {
-
-        // 创建6条用户记录
-        SysUser[] users = {
-                new SysUser("aaa@qq.com", "111", "简书大学堂", 1129),
-                new SysUser("bbb@qq.com", "222", "宇文欢", 897),
-                new SysUser("ccc@qq.com", "333", "一只枝", 776),
-                new SysUser("ddd@qq.com", "444", "lostdays", 666),
-                new SysUser("eee@qq.com", "555", "十七楼的安素", 433),
-                new SysUser("fff@qq.com", "666", "徐林Grace", 112)
-        };
-
-        //创建6条专题记录
-        Topic[] topics = {
-                new Topic("读书", "https://goo.gl/VLUQEk", "读书专题仅收录与读书有关的书评、读书笔记、阅读方法、读书清单等文章。", 180990, 3412050),
-                new Topic("手绘", "https://goo.gl/i6NE3A", "本专题是绘画爱好者的乐园，欢迎互相分享学习。", 126355, 1590757),
-                new Topic("摄影", "https://goo.gl/bYQwPy", "每个人都是独特的艺术家 ，用快门捕捉你双眼所见，心有所感的一切 。", 68397, 1897602),
-                new Topic("故事", "https://goo.gl/xprKt8", "故事专题，不论是旅行生活中亲身经历的真实故事，还是童话玄幻遐想的虚构故事，这里记录你的每个故事。", 194131, 1258046),
-                new Topic("旅行", "https://goo.gl/H4S3yj", "邂逅一个国家，讲述一座城市，这里有你期待的诗与远方。", 104079, 2487321),
-                new Topic("读电影", "https://goo.gl/k2AzWM", "本专题收录电影相关文章。要求文内不得带有公众号信息等推广内容。", 88172, 1809302),
-        };
-
+    public void initData() {
         //创建6条读书专题的文章记录
         Article[] articles = {
                 new Article(
@@ -96,29 +64,9 @@ public class RepositoryTest {
                         1)
 
         };
-
         for (int i = 0; i < 6; i++) {
-//            userRepository.save(users[i]);
-//            topicRepository.save(topics[i]);
             articleResopitory.save(articles[i]);
         }
-
-
-        // 测试findAll, 查询所有记录
-//        Assert.assertEquals(6, userRepository.findAll().size());
-
-        // 测试findByName, 查询姓名为FFF的User
-//        System.out.println(userRepository.findByName("FFF"));
-
-        // 测试findByNameAndAge, 查询姓名为FFF并且年龄为60的User
-//        System.out.println(userRepository.findByNameAndAge("FFF",60));
-
-        // 测试findUser, 查询姓名为FFF的User
-//        System.out.println(userRepository.findUser("FFF"));
-
-        // 测试删除姓名为AAA的User
-//        userRepository.delete(userRepository.findByName("AAA"));
-
-
     }
+
 }

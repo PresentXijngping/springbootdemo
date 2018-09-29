@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 继承JpaRepository，默认已经具备创建（save）、更新（save）、删除（delete）、查询（findAll、findOne）等基本功能
  */
-public interface UserRepository extends JpaRepository<SysUser, Long> {
+public interface UserRepository extends JpaRepository<SysUser, Integer> {
 
     //根据账号精确查询用户，采用的是通过解析方法名创建查询
     SysUser findByAccount(String account);

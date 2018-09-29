@@ -6,6 +6,7 @@ import com.example.springdatajpa.service.TopicService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class TopicServiceImpl implements TopicService {
@@ -15,5 +16,10 @@ public class TopicServiceImpl implements TopicService {
     @Override
     public Topic findByTopicName(String topicName) {
         return topicRepository.findByTopicName(topicName);
+    }
+
+    @Override
+    public List<Topic> getAll() {
+        return topicRepository.findAll();
     }
 }

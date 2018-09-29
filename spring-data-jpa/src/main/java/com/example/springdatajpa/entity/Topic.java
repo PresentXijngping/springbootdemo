@@ -14,10 +14,8 @@ import java.util.List;
 @Data
 public class Topic implements Serializable {
     @Id
-    @GenericGenerator(name = "PKUUID", strategy = "uuid2")
-    @GeneratedValue(generator = "PKUUID")
-    @Column(length = 36)
-    private String id;
+    @GeneratedValue
+    private Integer id;
 
     //专题名称
     private String topicName;

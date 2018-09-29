@@ -1,5 +1,6 @@
 package com.example.springdatajpa.entity;
 
+import io.swagger.models.auth.In;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -13,7 +14,7 @@ import java.io.Serializable;
 public class SysUser implements Serializable {
     @Id
     @GeneratedValue
-    private Long id;
+    private Integer id;
 
     @Column(nullable = false)
     private String account;
